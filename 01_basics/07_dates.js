@@ -20,16 +20,16 @@ let myTimeStamp = Date.now()
 
 let newDate = new Date()
 // console.log(newDate);
-// console.log(newDate.getMonth() + 1);
+ console.log(newDate.getMonth() + 1);
 // console.log(newDate.getDay());
 
 // `${newDate.getDay()} and the time `
 
-let newdatesout= newDate.toLocaleString('default', {
+// let newdatesout= newDate.toLocaleString('default', {
     
-    day:"2-digit",
-    weekday: "short",
-    year:"numeric"
-})
+//     day:"2-digit",
+//     weekday: "short",
+//     year:"numeric"
+// })
 
-console.log(newdatesout); //16 Sat 2023
+// console.log(newdatesout); //16 Sat 2023
